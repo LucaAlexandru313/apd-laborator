@@ -2,9 +2,9 @@
 #define CONFIG_H
 
 #define SENSOR_PIN       A0
-#define SAMPLE_PERIOD_MS 50000
-#define SAMPLE_PERIOD_MS 500
-#define SERIAL_BAUD      300
+#define SAMPLE_PERIOD_MS 100
+#define SAMPLE_PERIOD_MS 5000
+#define SERIAL_BAUD      9600
 #define LED_PIN          13
 #define BUTTON_PIN       2
 
