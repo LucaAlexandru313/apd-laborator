@@ -1,11 +1,11 @@
 #include "config.h"
 
 void setup() {
-  Serail.begin(SERIAL_BAUD);
+  serial.begin(SERIAL_BAUD);
   }
 
 void loop () {
   int raw = analogRead(SENSOR_PIN);
-  Serial.println(raw);
-  elay(SAMPLE_PERIOD_MS);
+  serial.println(raw);
+  delay(SAMPLE_PERIOD_MS);
 }
