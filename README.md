@@ -7,4 +7,4 @@ Platformă: Arduino Uno R3 (ATmega328P)
 Autor laborator: <numele vostru>
 ## Parametri
 tip, timp, baud, pin, buton
-Comunicație serială la 19200 baud
+Comunicație serială la 115200 baud
